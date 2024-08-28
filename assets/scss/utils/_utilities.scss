@@ -1,0 +1,18 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size":
+      map-merge(
+        map-get($utilities, "font-size"),
+        (
+          responsive: true,
+        )
+      ),
+  )
+);
+
+@import "bootstrap/scss/utilities/api";
+
+.custom-shadow{
+  box-shadow: 0px 2px 8px 0px #6E6B6714;
+}

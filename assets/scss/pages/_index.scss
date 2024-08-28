@@ -1,0 +1,38 @@
+.theme-card{
+    position: relative;
+    // border-top-left-radius: 20px;
+    // border-bottom-right-radius: 20px;
+    img{
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .theme-title{
+        position: absolute;
+        top:50%;
+        left:50%;
+    }
+}
+
+.photogrid{
+    gap: 4px;
+}
+
+.tag{
+    letter-spacing: 0.1em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block; 
+    vertical-align: middle;
+}
+.card-title{
+    margin-bottom: 12px;
+}
+
+.project-tag{
+    padding: 8px 12px;
+    position: absolute;
+    top: -16px;
+    left: 16px;
+    border:1px  solid #E0EFDE;
+    border-radius: 4px;
+}

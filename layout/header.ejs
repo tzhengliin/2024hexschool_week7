@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container border-bottom py-lg-5 py-5">
+    <a class="navbar-brand" href="#">
+      <img src="../assets/images/logo.svg" alt="" />
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#navbarOffcanvasLg"
+      aria-controls="navbarOffcanvasLg"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end w-100"
+      tabindex="-1"
+      id="navbarOffcanvasLg"
+      aria-labelledby="navbarOffcanvasLgLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <form
+          class="d-flex mb-7 my-lg-auto me-lg-auto position-relative"
+          role="search"
+        >
+          <input
+            class="form-control w-100 py-lg-2 px-lg-4 border-radius rounded-pill search-input"
+            type="search"
+            placeholder="搜尋文章"
+            aria-label="Search"
+          />
+          <span
+            class="material-symbols-outlined position-absolute top-50 end-0 translate-middle-y me-3"
+          >
+            search
+          </span>
+        </form>
+
+        <ul class="navbar-nav mb-7 my-lg-auto gap-lg-4 gap-5">
+          <li class="nav-item">
+            <a
+              class="nav-link active p-2 py-lg-3 px-lg-4"
+              aria-current="page"
+              href="#"
+              >所有文章</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 py-lg-3 px-lg-4" href="#">訂閱方案</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 py-lg-3 px-lg-4" href="#">關於我們</a>
+          </li>
+
+          <li class="nav-item">
+            <a
+              class="btn btn-secondary-200 text-white px-4 py-lg-3 px-lg-5 w-100"
+              href="signup.html"
+            >
+              登入 / 註冊</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
